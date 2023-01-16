@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'Gilroy-Regular';
+    font-style: normal;
+    font-display: swap; 
+    font-weight: 400;
+    src: url("../fonts/gilroy-regular-3.otf");
+    }
+    @font-face {
+    font-family: 'Gilroy-ExtraBold';
+    font-style: normal;
+    font-display: swap; 
+    font-weight: 400;
+    src: url("../fonts/Gilroy-ExtraBold.otf");
+    }
+    @font-face {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-display: swap; 
+        font-weight: 400;
+        src: url("../fonts/Gilroy-ExtraBold.otf");
+        }
+    @font-face {
+        font-family: 'Gilroy-Bold';
+        font-style: normal;
+        font-display: swap; 
+        font-weight: 400;
+        src: url("../fonts/gilroy-bold-4.otf");
+        }
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed, 
+    figure, figcaption, footer, header, hgroup, 
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        font-family: Gilroy-Regular;
+        vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure, 
+    footer, header, hgroup, menu, nav, section {
+        display: block;
+    }
+    body {
+        line-height: 1;
+    }
+    ol, ul {
+        list-style: none;
+    }
+    blockquote, q {
+        quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    
+      b,
+      strong {
+        font-weight: bold;
+      }
+      html {
+        background-color: #f2f4f8;
+        overflow-x: hidden;
+      }
+      body {
+        font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #788188;
+        background-color: transparent;
+        -webkit-font-smoothing: antialiased;
+        line-height: 1.40;
+      }
+      a {
+        color: #545a5f;
+        text-decoration: none;
+      }
+      a:hover,
+      a:focus {
+        color: #303437;
+        text-decoration: none;
+      }
+      label {
+        font-weight: normal;
+      }
+      html,body,div,span,
+      applet,object,iframe,
+      h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+      a,abbr,acronym,address,big,cite,code,
+      del,dfn,em,font,img,ins,kbd,q,s,samp,
+      small,strike,strong,sub,sup,tt,var,
+      dd,dl,dt,li,ol,ul,
+      fieldset,form,label,legend,
+      table,caption,tbody,tfoot,thead,tr,th,td {margin: 0;padding: 0;border: 0;}
+      table {border-collapse: collapse;border-spacing: 0;display:table;table-layout:fixed;}
+      ol,ul,li{list-style: none;vertical-align:middle;}
+      q:before,q:after,
+      blockquote:before,blockquote:after {content: "";}
+      a,ul li a{text-decoration:none;cursor:pointer;}
+      input::-ms-clear{display:none;}
+      textarea{vertical-align:top;resize:none;}
+      td,th{table-layout:fixed;word-break:break-all;;border-collapse:collapse;text-overflow:ellipsis;word-break:keep-all;white-space:nowrap;}
+      tr td:last-child{ white-space:normal;}
+      i,em{font-style:normal;}
+      
+      *::-webkit-scrollbar {width:6px; height:7px; background-color:transparent;}
+      *::-webkit-scrollbar-track {background-color:#f0f6ff;position: relative;z-index: 110;  }
+      *::-webkit-scrollbar-thumb {background-color:#ddd; border-radius:5px;}
+      .scrollbarHide::-webkit-scrollbar{display: none}
+      .scrollbarShow::-webkit-scrollbar{display: block}
+      
+      .mobile input[type='text'],.mobile input[type='button'],.mobile input[type='password'],.mobile input[type='file'],.mobile button,.mobile textarea{-webkit-appearance:none;border-radius:0;}
+      .cover{width:100%;height:100%;position:fixed;top:0;right:0;z-index:20;display: none;}
+      .floatRight{float:right;}
+      .floatLeft{float:left;}
+      a:hover{text-decoration:none;}
+      .mobile .container{position:fixed;top:0;left:0;background:#fff;}
+      .mobile .mobileHidden,.pc .pcHidden{display:none;}
+          ;position:fixed;top:0;right:0;z-index:20;display: none;}
+      .floatRight{float:right;}
+      .floatLeft{float:left;}
+      a:hover{text-decoration:none;}
+      .mobile .container{position:fixed;top:0;left:0;background:#fff;}
+      .mobile .mobileHidden,.pc .pcHidden{display:none;}
+          

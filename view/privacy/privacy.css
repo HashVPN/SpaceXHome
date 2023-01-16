@@ -1,0 +1,705 @@
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.28s
+}
+
+.fade-enter,
+.fade-leave-active {
+    opacity: 0
+}
+
+.fade-transform-leave-active,
+.fade-transform-enter-active {
+    transition: all .5s
+}
+
+.fade-transform-enter {
+    opacity: 0;
+    transform: translateX(-30px)
+}
+
+.fade-transform-leave-to {
+    opacity: 0;
+    transform: translateX(30px)
+}
+
+.breadcrumb-enter-active,
+.breadcrumb-leave-active {
+    transition: all .5s
+}
+
+.breadcrumb-enter,
+.breadcrumb-leave-active {
+    opacity: 0;
+    transform: translateX(20px)
+}
+
+.breadcrumb-move {
+    transition: all .5s
+}
+
+.breadcrumb-leave-active {
+    position: absolute
+}
+
+@keyframes showLeft {
+    0% {
+        opacity: 0;
+        left: -200px
+    }
+
+    100% {
+        opacity: 1;
+        left: 0
+    }
+}
+
+@keyframes hideLeft {
+    0% {
+        opacity: 1;
+        left: 15px
+    }
+
+    100% {
+        opacity: 0;
+        left: -50px
+    }
+}
+
+@keyframes showLeft2 {
+    0% {
+        opacity: 0;
+        left: -200px
+    }
+
+    100% {
+        opacity: 1;
+        left: 0
+    }
+}
+
+@keyframes banner_fade_1 {
+    0% {
+        opacity: 0;
+        top: -30px;
+        right: -30px
+    }
+
+    100% {
+        opacity: 1;
+        top: -9px;
+        right: -9px
+    }
+}
+
+@keyframes banner_fade_2 {
+    0% {
+        opacity: 0;
+        top: 340;
+        right: -120px
+    }
+
+    100% {
+        opacity: 1;
+        top: 14px;
+        right: -13px
+    }
+}
+
+@keyframes banner_fade_3 {
+    0% {
+        opacity: 0;
+        bottom: -200px;
+        left: 393px
+    }
+
+    100% {
+        opacity: 1;
+        bottom: 28px;
+        left: 693px
+    }
+}
+
+@keyframes banner_fade_4 {
+    0% {
+        opacity: 0;
+        bottom: -318px;
+        right: -20px
+    }
+
+    100% {
+        opacity: 1;
+        bottom: 118px;
+        right: -21px
+    }
+}
+
+@keyframes hideLeft2 {
+    0% {
+        opacity: 1;
+        left: 15px
+    }
+
+    100% {
+        opacity: 0;
+        left: -50px
+    }
+}
+
+@keyframes showRight {
+    0% {
+        opacity: 0;
+        right: -50px
+    }
+
+    100% {
+        opacity: 1;
+        right: 0
+    }
+}
+
+@keyframes hideRight {
+    0% {
+        opacity: 1;
+        right: 15px
+    }
+
+    100% {
+        opacity: 0;
+        right: -50px
+    }
+}
+
+@keyframes showBottomRight {
+    0% {
+        opacity: 0;
+        right: -164px;
+        top: 238px
+    }
+
+    100% {
+        opacity: 1;
+        right: 164px;
+        top: -38px
+    }
+}
+
+@keyframes hideBottomRight {
+    0% {
+        opacity: 1;
+        right: -164px;
+        bottom: -38px
+    }
+
+    100% {
+        opacity: 0;
+        left: 982px;
+        top: 530px
+    }
+}
+
+@keyframes showBottomRight_q1 {
+    0% {
+        opacity: 0;
+        top: 700px;
+        left: 1500px
+    }
+
+    100% {
+        opacity: 1;
+        top: 314px;
+        left: 1059px
+    }
+}
+
+@keyframes showBottomRight_q2 {
+    0% {
+        opacity: 0;
+        left: 270px;
+        top: 900px
+    }
+
+    100% {
+        opacity: 1;
+        left: 870px;
+        top: 369px
+    }
+}
+
+@keyframes hideBottomRight_q1 {
+    0% {
+        opacity: 1;
+        left: 1120px;
+        bottom: -145px
+    }
+
+    100% {
+        opacity: 0;
+        left: 1300px;
+        bottom: -555px
+    }
+}
+
+@keyframes showBottomRight_star1 {
+    0% {
+        opacity: 0;
+        top: -167px;
+        right: -51px
+    }
+
+    100% {
+        opacity: 1;
+        top: -67px;
+        right: 51px
+    }
+}
+
+@keyframes showBottomRight_star2 {
+    0% {
+        opacity: 0;
+        top: 549px;
+        left: -20px
+    }
+
+    100% {
+        opacity: 1;
+        top: 349px;
+        left: -3px
+    }
+}
+
+@keyframes showBottomRight_car {
+    0% {
+        opacity: 0;
+        top: -100px;
+        left: 100px
+    }
+
+    100% {
+        opacity: 1;
+        top: 0;
+        left: 0
+    }
+}
+
+@keyframes showBottom {
+    0% {
+        opacity: 0;
+        bottom: -50px
+    }
+
+    100% {
+        opacity: 1;
+        bottom: 15px
+    }
+}
+
+@keyframes hideBottom {
+    0% {
+        opacity: 1;
+        bottom: 15px
+    }
+
+    100% {
+        opacity: 0;
+        bottom: -50px
+    }
+}
+
+@keyframes dong {
+    0% {
+        transform: translate(0px, 0px)
+    }
+
+    50% {
+        transform: translate(0px, -8px)
+    }
+
+    100% {
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes dong_ban {
+    0% {
+        transform: translate(0px, 0px)
+    }
+
+    50% {
+        transform: translate(0px, -5px)
+    }
+
+    100% {
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes bullBall {
+    0% {
+        transform: translate(50px, -50px)
+    }
+
+    10% {
+        transform: translate(150px, -150px)
+    }
+
+    20% {
+        transform: translate(100px, -150px)
+    }
+
+    30% {
+        transform: translate(100px, -200px)
+    }
+
+    40% {
+        transform: translate(60px, -200px)
+    }
+
+    50% {
+        transform: translate(80px, -200px)
+    }
+
+    60% {
+        transform: translate(90px, -400px)
+    }
+
+    70% {
+        transform: translate(80px, -400px)
+    }
+
+    80% {
+        transform: translate(60px, -350px)
+    }
+
+    100% {
+        transform: translate(50px, -50px)
+    }
+}
+
+@keyframes purpleBall {
+    0% {
+        transform: translate(-20px, 50px)
+    }
+
+    10% {
+        transform: translate(-80px, 70px)
+    }
+
+    20% {
+        transform: translate(-100px, 150px)
+    }
+
+    30% {
+        transform: translate(-100px, 200px)
+    }
+
+    40% {
+        transform: translate(-60px, 200px)
+    }
+
+    50% {
+        transform: translate(-80px, 200px)
+    }
+
+    60% {
+        transform: translate(-90px, 400px)
+    }
+
+    70% {
+        transform: translate(-80px, 400px)
+    }
+
+    80% {
+        transform: translate(-60px, 350px)
+    }
+
+    100% {
+        transform: translate(-20px, 50px)
+    }
+}
+
+.button-sweep {
+    background: rgba(64, 100, 255, 0.93) !important;
+    border-radius: 40px !important;
+    display: inline-block !important;
+    transition-property: color !important;
+    position: relative !important;
+    transform: translateZ(0) !important;
+    backface-visibility: hidden !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    transition-duration: 0.3s !important;
+    overflow: hidden !important
+}
+
+.button-sweep:before {
+    content: "" !important;
+    position: absolute !important;
+    z-index: -1 !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    background: #3a67ff !important;
+    border-radius: 40px !important;
+    transform: scaleX(0) !important;
+    transform-origin: 0 50% !important;
+    transition-property: transform !important;
+    transition-duration: 0.3s !important;
+    transition-timing-function: ease-out !important
+}
+
+.button-sweep:hover,
+.button-sweep:focus,
+.button-sweep:active {
+    color: white !important
+}
+
+.button-sweep:hover:before,
+.button-sweep:focus:before,
+.button-sweep:active:before {
+    -webkit-transform: scaleX(1) !important;
+    transform: scaleX(1) !important
+}
+
+.privacy-warp {
+    overflow: auto;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    background: #ecf1f6
+}
+
+.privacy-warp .privacy-warp-2 {
+    width: 100%;
+    height: 100%
+}
+
+.privacy-warp .top-warp {
+    margin-top: 219px;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 92px;
+    text-align: center;
+    position: relative
+}
+
+.privacy-warp .top-warp .ball {
+    width: 1200px;
+    height: 1200px;
+    border-radius: 50%;
+    position: absolute;
+    overflow: hidden;
+    box-shadow: h-shadow v-shadow blur spread color inset;
+    filter: blur(3px)
+}
+
+.privacy-warp .top-warp .ball div {
+    width: 100%;
+    height: 100%;
+    background: url(../../images/bg_wang.png) no-repeat center;
+    background-size: cover
+}
+
+.privacy-warp .top-warp .ball.blue {
+    background-image: radial-gradient(circle, #86ccfa, 50%, rgba(244, 244, 244, 0.3) 80%);
+    left: -500px;
+    bottom: -624px;
+    animation: bullBall 8s infinite
+}
+
+.privacy-warp .top-warp .ball.purple {
+    background-image: radial-gradient(circle, #888ffa, 40%, rgba(244, 244, 244, 0.3) 80%);
+    right: -319px;
+    top: -634px;
+    animation: purpleBall 8s infinite
+}
+
+.privacy-warp .top-warp .top-title {
+    text-align: center;
+    margin-bottom: 51px;
+    font-size: 70px;
+    font-family: Gilroy-ExtraBold;
+    font-weight: 800;
+    color: #0A0D19;
+    line-height: 76px;
+    position: relative;
+    z-index: 2
+}
+
+.privacy-warp .top-warp .top-title span {
+    color: #4064ff;
+    font-family: Gilroy-ExtraBold
+}
+
+.privacy-warp .top-warp .top-explain {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    font-size: 18px;
+    font-family: Gilroy-Regular;
+    font-weight: 400;
+    color: #0A0D19;
+    line-height: 28px;
+    position: relative;
+    z-index: 2;
+    width: 1174px
+}
+
+.privacy-warp .top-warp .top-btn {
+    width: 350px;
+    height: 80px;
+    background: #4064FF;
+    box-shadow: 0px 34px 46px 0px rgba(64, 100, 255, 0.23);
+    border-radius: 40px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: Gilroy-Bold;
+    font-weight: bold;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 2
+}
+
+.privacy-warp .introduce-warp {
+    width: 1200px;
+    margin: 0 auto 88px;
+    padding: 100px 150px 148px;
+    background: rgba(248, 248, 248, 0.7);
+    border-radius: 80px;
+    position: relative;
+    z-index: 3
+}
+
+.privacy-warp .introduce-warp .introduce-warp-item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px
+}
+
+.privacy-warp .introduce-warp .introduce-warp-item .privacy-img {
+    width: 580px;
+    height: 360px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center
+}
+
+.privacy-warp .introduce-warp .introduce-warp-item .privacy-img img {
+    margin-top: 82px;
+    width: 260px
+}
+
+.privacy-warp .introduce-warp .introduce-warp-item .introduce-content {
+    flex: 1;
+    padding-top: 60px
+}
+
+.privacy-warp .introduce-warp .introduce-warp-item .introduce-content .title {
+    margin-bottom: 57px;
+    font-size: 38px;
+    font-family: Gilroy-Bold;
+    font-weight: bold;
+    color: #0A0D19;
+    line-height: 1
+}
+
+.privacy-warp .introduce-warp .introduce-warp-item .introduce-content .explain {
+    font-size: 16px;
+    font-family: Gilroy-Regular;
+    font-weight: 400;
+    color: #0A0D19;
+    line-height: 28px
+}
+
+.privacy-warp .introduce-warp .introduce-warp-item .introduce-content .more {
+    color: #2484E9;
+    margin-left: 30px;
+    cursor: pointer
+}
+
+.privacy-warp .introduce-warp .introduce-warp-item.left .introduce-content {
+    margin-left: 37px;
+    padding-left: 30px
+}
+
+.privacy-warp .introduce-warp .introduce-warp-item.right .introduce-content {
+    margin-right: 37px
+}
+
+.privacy-warp .introduce-warp .btn-warp {
+    text-align: center;
+    margin-bottom: 80px
+}
+
+.privacy-warp .introduce-warp .btn-warp .el-button {
+    min-width: 208px;
+    width: auto;
+
+    height: 48px;
+    background: #2A3F72;
+    border-radius: 24px;
+    margin: 0 auto;
+    font-size: px;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 48px;
+    font-family: Gilroy-Bold;
+    padding: 0
+}
+
+.privacy-warp .btn-warp {
+    text-align: center;
+    margin-bottom: 93px;
+    position: relative;
+    z-index: 2
+}
+
+.privacy-warp .btn-warp .el-button {
+    min-width: 350px;
+    width: auto;
+
+    height: 80px;
+    background: #4064FF;
+    box-shadow: 0px 34px 46px 0px rgba(64, 100, 255, 0.23);
+    border-radius: 40px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: Gilroy-Bold;
+    font-weight: bold;
+    color: #FFFFFF
+}
+
+.privacy-warp .footer-warp-last {
+    position: relative
+}
+
+.privacy-warp .footer-warp-last .ball {
+    width: 1500px;
+    height: 1500px;
+    border-radius: 50%;
+    position: absolute;
+    overflow: hidden;
+    box-shadow: h-shadow v-shadow blur spread color inset
+}
+
+.privacy-warp .footer-warp-last .bg_purple {
+    right: -800px;
+    bottom: -800px;
+    background-image: radial-gradient(circle, #86ccfa, 50%, rgba(244, 244, 244, 0.3) 80%);
+    filter: blur(60px)
+}
+
+.privacy-warp .footer-warp-last .bg_blue {
+    left: -700px;
+    bottom: -600px;
+    background-image: radial-gradient(circle, #888ffa, 40%, rgba(244, 244, 244, 0.3) 80%);
+    filter: blur(60px)
+}
+
+.privacy-warp .footer-warp-last .bottom-warp-s {
+    position: relative;
+    z-index: 2
+}
